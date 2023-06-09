@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    float: left;
+    overflow: visible;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    float: left;
+    overflow: hidden;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    float: left;
+    overflow: auto;/*scroll*/
+}

@@ -1,0 +1,90 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.a {
+    background: red;
+    float: left;
+}
+
+.b {
+    background: blue;
+    float: left;
+    clear: both;
+}
+.c {
+    background: green;
+    float: left;
+    clear: both;
+}
+.d {
+    background: yellow;
+    float: left;
+    clear: both;
+}
+.e {
+    background: pink;
+    float: left;
+}
+.f {
+    background: orange;
+    float: right;
+    
+}
+.g {
+    background: purple;
+    float: right;
+}
+.h {
+    background: rgb(11, 197, 132);
+    float: right;
+}
+.i {
+    background: rgb(80, 85, 253);
+    float: right;
+}
+.j {
+    background: rgb(201, 8, 166);
+    float: right;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.cc {
+    clear: both;
+}
+
+.left {
+    width: 30%;
+    height: 450px;
+    background: blue;
+}
+.mid {
+    width: 50%;
+    height: 450px;
+    background: red;
+}
+.right {
+    width: 20%;
+    height: 450px;
+    background: green;
+}
+
+.menu {
+    border: 1px solid #ccc;
+}
+
+.box1 {
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+    
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*class uses single :*/
+        p:first-child{ background: pink;}
+        p:last-child{ background: skyblue;}
+        p:nth-child(2){background: blueviolet;}
+        p:nth-child(3){background: violet;}
+        p:nth-child(2n+1){background: brown; color: yellow;}
+        p:nth-child(2n){font-size: 55px;}
+        a:hover{color: yellow !important; }
+        a:visited{color: skyblue;}
+        a:link{color: lightgreen;}
+        a:active{color: slategray !important;}
+        input:required{background: pink;}
+        input:read-only{background: blue;}
+        input:disabled{background: red;}
+        input:focus{outline: 2px solid red;}
+        :root {
+            --brand: #295307;
+            --w: 300px;
+            --h: 80px;
+        }
+        h1 { background: var(--brand); width: var(--w); height: var(--h);}
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello</h1>
+        <a href="fb.com">FB</a> <a href="tww.com">TW</a>
+        <input type="text" required> 
+        <input type="text" disabled> 
+        <input type="text" readonly>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis odit eveniet officia alias id, beatae earum velit nulla, pariatur sunt maiores hic quaerat quidem impedit! Architecto beatae hic quae amet.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis odit eveniet officia alias id, beatae earum velit nulla, pariatur sunt maiores hic quaerat quidem impedit! Architecto beatae hic quae amet.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis odit eveniet officia alias id, beatae earum velit nulla, pariatur sunt maiores hic quaerat quidem impedit! Architecto beatae hic quae amet.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis odit eveniet officia alias id, beatae earum velit nulla, pariatur sunt maiores hic quaerat quidem impedit! Architecto beatae hic quae amet.</p>
+    </div>
+</body>
+</html>

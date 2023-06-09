@@ -1,0 +1,10 @@
+.box {
+
+    height: 60vh;/*vertical height*/
+    border: 2px solid #000;
+    background-color: skyblue;
+    background-image: url(a.jpg), url(./b.png);
+    background-repeat: no-repeat; /*repeat no-repeat repeat-x repeat-y*/
+    background-size: 300px auto, 400px auto;/*width height*/
+    background-position: 100px bottom, 100px 50px;/*moves from left top to any position, pushes image from left to right and top to bottom*/
+}

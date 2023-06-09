@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+.cc {
+    clear: both;
+}
+.bod {
+    border: 1px solid black;
+    
+    margin: 5px;
+}
+
+.left {
+    width: 25%;
+}
+
+.mid {
+    width: 50%;
+}
+
+.right {
+    width: 23%;
+}
+.s {
+    height: 240px;
+}

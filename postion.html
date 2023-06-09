@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1900px;
+        }
+        .box{
+            width: 200px; height: 200px;
+
+        }
+        .a{
+            background: red; position: relative;
+        }
+        .b{
+            background: yellow; position: fixed; top: 20px; right: 20px;
+        }
+        .c{
+            background: blue; position: sticky; top: 20px;
+        } 
+        .small {
+            width: 40px; height: 40px; background: brown; position: absolute; bottom: 20px; right: 20px; z-index: 2;
+        }
+        .small1 {
+            width: 40px; height: 40px; background: lightgreen; position: absolute; bottom: 0px; right: 0px; z-index: 1;/*absolute to change things from within a box*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box a">A <div class="small"></div> <div class="small1"></div></div>
+    <div class="box b">B <div class="small"></div> <div class="small1"></div> </div>
+    <div class="box c">C <div class="small"></div> <div class="small1"></div></div>
+</body>
+</html>

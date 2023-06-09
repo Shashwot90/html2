@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            display: inline;
+        }
+        .dropdown li {
+            display: block;
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown ul {
+            position: absolute; top: 100%; left: 0; display: none;
+        }
+        .dropdown:hover ul {
+            display: block;
+        }
+        nav {
+            background-color: RED;
+            width: 940px;
+            margin: auto;
+            padding:10px ;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+        ul {
+           
+                padding:10px;
+                 
+           
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="re">
+            <li><a href="">Home</a></li>
+            <li class="dropdown"><a href="">About Us</a>
+                <ul class="re">
+                    <li><a href="">Mission</a></li>
+                    <li><a href="">Vision</a></li>
+                </ul>
+            </li>
+            <li><a href="">Services</a></li>
+            <li class="dropdown"><a href="">Gallery</a>
+                <ul class="re">
+                    <li><a href="">Audio</a></li>
+                    <li><a href="">Video</a></li>
+                </ul>
+            </li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

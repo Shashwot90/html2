@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--post is used to hide data-->
+    <form action="" method="get">
+        <fieldset>
+            <legend>HTML FORM</legend>
+            <label for="a">  First Name</label> <input type="text" name="fname" id="a">
+            <hr>
+            <label for="b">  Last Name</label> <input type="text" name="lname" id="b">
+            <hr>
+            <label for="c">  Email</label> <input type="email" name="email" id="c">
+            <hr>
+            <label for="d">  Password</label> <input type="password" name="pass" id="d">
+            <hr>
+            <label for="e">  Age</label> <input type="number" name="age" id="e" min="0" max="100" step="2">
+            <hr>
+            Message: <textarea name="mss" rows="10" cols="40"></textarea>
+            <hr>
+            Gender <input type="radio" name="gen" value="boys"> Male 
+             <input type="radio" name="gen" value="girls"> Female
+            <hr>
+            <script src="https://cdn.ckeditor.com/4.19.1/standard/ckeditor.js"></script>
+             
+                <script>
+                        CKEDITOR.replace( 'mss' );
+                </script>
+            <button>Send</button>
+        </fieldset>
+    </form>
+</body>
+</html>

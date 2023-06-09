@@ -1,0 +1,119 @@
+ * {
+    padding: 0;
+    margin: 0;
+ }
+ .header1 {
+    width: auto;
+    height: 80px;
+    background-color: black;
+    border: 1px solid black;
+    margin: 0 50px 0 50px;
+    box-sizing: border-box;
+ }
+
+.menu {
+    background: black;
+    color: white;
+    padding: 30px 50px 0 50px;
+}
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.cc {
+    clear: both;
+}
+.content {
+    justify-content: center;
+    align-items: center;
+}
+.content p {
+    padding: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0 50px;
+}
+.content small {
+    text-align: center;
+    padding: 50px;
+     
+}
+
+.slider {
+    background: grey;
+    width: auto;
+    height: 450px;
+    margin: 0 50px 50px 50px;
+    box-sizing: border-box;
+}
+.word {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.cards {
+    justify-content: center;
+    margin: 0 70px 100px 70px;
+    box-sizing: border-box;
+
+}
+.left-card, .mid-card, .right-card {
+    width: 30%;
+    height: 400px;
+    background: rgb(209, 193, 193);
+    margin: 50px 20px;
+    box-sizing: border-box;
+}
+
+.dark {
+    background: grey;
+    margin:  50px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.left, .mid, .right {
+    width: 30%;
+    height: 400px;
+    background: rgb(206, 198, 198);
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.dd {
+    text-align: center;
+
+}
+.aa {
+    text-align: center;
+
+}
+.bb {
+    text-align: center;
+
+}
+
+.footer {
+    margin: 50px;
+}
+
+.left-img, .right-img {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin:  50px;
+    background: grey;
+}
+
+.hl, .ll {
+    text-align: center;
+    justify-content: center;
+    margin: 50px 20px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con {
+            width: 450px; height: 350px; border: 2px solid #000; margin: 50px auto; position: relative;
+        }
+        .box {
+            width: 43px;
+        }
+
+        /*combinator*/
+        .we p {
+            color: red;
+        }
+        .we > p {color: green;}/*pure child*/
+        .we + p {
+            color: yellow;
+        }/*for first after div*/
+        .we ~ p {color: grey;}
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box a"></div>
+        <div class="box b"></div>
+        <div class="box c"></div>
+        <div class="box d"></div>
+    </div>
+
+    <div class="we">
+        <p>gfdg</p>
+        <p>frgfnyrn</p>
+        <div class="child">
+            <p>ggtrb</p>
+        </div>
+         <p>other</p>
+    <p>other</p>
+    </div>
+    <p>other</p>
+    <p>other</p>
+</body>
+</html>

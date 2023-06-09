@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*element uses double :*/
+        h2::before{ content: 'ram'; background: red; color: yellow;}
+        h2::after{ content: 'sita'; background: yellow; color: red;}
+        ::selection{background: pink; color: #fff;}/*while selecting text bgcolor is pink n textcolor is white*/
+        ::marker{color: blue;}/*for list pointers*/
+        h2::first-letter{font-size: 55px;}
+        h2::first-line{background: skyblue;}
+        input::placeholder{color: brown;}
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Your Name">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+    <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> 
+    <h2>Sed, sequi! Sint ab distinctio veniam maiores eos ipsum alias </h2>
+<h2>nesciunt inventore quam harum! Quibusdam dolorum tempore quia consectetur iste tempora autem!</h2>
+</body>
+</html>

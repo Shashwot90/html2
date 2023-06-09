@@ -1,0 +1,55 @@
+h3 {
+    background: green;
+    color: white;
+}
+
+.a {
+    background: green;
+    width: 200px;
+    height: 200px;
+    border: 20px dotted pink;
+    box-sizing: border-box;
+}
+
+#b {
+    background: orange;
+    width: 200px;
+    height: 200px;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 20px;
+    box-sizing: border-box;
+}
+
+.c {
+    background: aqua;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.arrow {
+    border: 20px solid;
+    border-color: red green yellow pink;
+    width: 0;
+}
+.arrow-head {
+    border: 20px solid;
+    border-color: transparent transparent yellow transparent;
+    width: 0;
+}
+
+.box4 {
+    border: 20px solid yellow; 
+    width: 100px;
+    height: 100px;
+    outline: 5px solid blue;
+    border-radius: 0 40px 0 0;
+}
+
+.abc {
+    text-align: left;/* center left right justify*/
+     text-transform: capitalize;  /*capitalize uppercase lowercase none; */
+     text-decoration: underline;/*none underline overline*/
+     text-indent: 20px;
+}

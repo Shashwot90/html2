@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .con{ background: pink; display: flex; height: 500px;}
+        .box{ border: 2px solid #000; padding: 40px;}
+        .a{ flex-basis: 400px; align-self: flex-start; order: 3;}
+        .b{ flex-grow: 2; align-self: center; order: 1;}
+        .c{ flex-grow: 1; align-self: flex-start; order: 4;}
+        .d{order: 2;}
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box a">A</div>
+        <div class="box b">B </div>
+        <div class="box c">C </div>
+        <div class="box d">D </div>
+    </div>
+</body>
+</html>
